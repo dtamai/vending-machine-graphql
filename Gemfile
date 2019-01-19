@@ -10,6 +10,9 @@ gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.2'
 gem 'sqlite3'
 
+gem 'graphiql-rails'
+gem 'graphql'
+
 group :development, :test do
   gem 'pry-byebug'
 end
