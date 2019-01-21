@@ -12,7 +12,7 @@ O projeto é um rails-api simples com o GraphiQL para navegar e testar o schema:
 rails s
 ```
 
-Acessar _localhost:3000/graphql_ para ver as coisas.
+Acessar _localhost:3000/graphiql_ para ver as coisas.
 
 ---
 
