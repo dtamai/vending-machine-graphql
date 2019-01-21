@@ -4,6 +4,18 @@ Lab de uma API com GraphQL
 
 ---
 
+## Para funcionar
+
+O projeto é um rails-api simples com o GraphiQL para navegar e testar o schema:
+
+```bash
+rails s
+```
+
+Acessar _localhost:3000/graphql_ para ver as coisas.
+
+---
+
 Esse lab tem como objetivo ser um estudo de uma API com GraphQL que atenda dois critérios:
 
 - controle estilo hypermedia, no qual a API consegue dizer quais funcionalidades estão disponíveis sem que clientes precisem inferir estado
