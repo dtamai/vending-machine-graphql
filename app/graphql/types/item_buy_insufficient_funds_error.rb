@@ -2,6 +2,8 @@
 
 module Types
   class ItemBuyInsufficientFundsError < Types::BaseObject
+    implements Types::ErrorInterface
+
     description 'An error that indicates the money deposited is less than the' \
                 ' price of the item selected.'
 
